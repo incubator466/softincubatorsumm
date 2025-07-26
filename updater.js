@@ -5,8 +5,8 @@ const axios = require('axios');
 const csv = require('csv-parser');
 
 const DATA_URL = 'https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv';
-const OUTPUT_FILE = path.join(__dirname, './data/summary.json');
-const LOCAL_CSV = path.join(__dirname, './data/zillow_county.csv');
+const OUTPUT_FILE = path.join(__dirname, './summary.json');
+const LOCAL_CSV = path.join(__dirname, './zillow_county.csv');
 
 async function downloadCSVtoFile() {
     try {
