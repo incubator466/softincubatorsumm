@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors"); // <-- Add this line
-const summaries = require("./data/summary.json");
+const summaries = require("./summary.json");
 const updater = require("./updater.js");
 
 const app = express();
